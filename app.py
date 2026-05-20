@@ -51,6 +51,7 @@ def preprocess_xray(image):
 # -------------------------------------------------------------------------
 st.title("🫁 PneuScan AI Portal")
 st.write("An advanced Deep Learning system designed to analyze chest X-ray scans for indications of Pneumonia.")
+st.write("Visit my [GitHub Repository : theDevJayden](https://github.com/theDevJayden) for more projects.")
 st.markdown("---")
 
 # File Uploader
