@@ -1,7 +1,16 @@
-# AI-pneumonia-detector
-A website to detect pneumonia from x-ray pictures. It uses the MobileNetV2, which is already optimized by google to a highly efficient convolutional neural network (CNN) architecture optimized by Google and trained by me to detect penumonia in x-rays
+# 🫁 Pneumonia Detection AI Portal
 
--app.py : the streamlit website code
--requirments.txt : to tell streamlit hosting what libraries to install
--pneumonia_final.keras : model 'brain' that is already trained
--Pnuemonia_Supervised.ipynb : the notebook (learning process)
+An end-to-end Deep Learning project designed to analyze chest X-ray scans and identify structural indicators of Pneumonia using a fine-tuned MobileNetV2 architecture. This repository contains both the core research pipeline and a live interactive web dashboard.
+
+---
+
+## 📂 Project Architecture
+
+```text
+📂 Repo
+├── 📄 app.py                     # The Streamlit interactive web application dashboard
+├── 📄 Pnuemonia_Supervised.ipynb # Complete R&D Jupyter Notebook showcasing the training process
+├── 📄 pneumonia_final.keras       # The final fine-tuned, production-ready model artifact (91.03% Accuracy)
+├── 📄 requirements.txt           # Configuration file listing necessary Python dependencies for hosting
+├── 📄 LICENSE                    # MIT Open Source Protection License
+└── 📄 .gitignore                 # Standard Python workspace exclusion rules
