@@ -10,6 +10,8 @@
   
   <br><br>
   
+  <p>Pneumonia Detection Website: <a href="https://ai-pneumonia-detector-thedevjayden.streamlit.app/" target="_blank">https://ai-pneumonia-detector-thedevjayden.streamlit.app/</a></p>
+  
   <a href="https://ai-pneumonia-detector-thedevjayden.streamlit.app/" target="_blank">
     <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Web%20App-exploratory?style=for-the-badge&color=0078d4" alt="Live Website">
   </a>
