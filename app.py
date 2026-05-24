@@ -97,6 +97,9 @@ def predict_pneumonia_cluster(image):
 st.title("🫁 PneuScan AI Portal")
 st.write("An advanced Pipeline Deep Learning system designed to analyze chest X-ray scans for indications of Pneumonia.")
 st.write("Visit my [GitHub Repository : theDevJayden](https://github.com/theDevJayden) for more projects.")
+st.write("This application uses a two-stage diagnostic approach:")
+st.write("1. Supervised Model (MobileNetV2): Initial screening for pneumonia presence.")
+st.write("2. Unsupervised Sub-Clustering (VGG16 + PCA + KMeans): Detailed classification into specific pneumonia sub-types. Made by [study-spec](https://github.com/study-spec)")
 st.markdown("---")
 
 uploaded_file = st.file_uploader("Upload a Chest X-Ray Image (JPEG / PNG)...", type=["jpg", "jpeg", "png"])
