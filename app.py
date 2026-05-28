@@ -100,6 +100,7 @@ st.write("Visit my [GitHub Repository : theDevJayden](https://github.com/theDevJ
 st.write("This application uses a two-stage diagnostic approach:")
 st.write("1. Supervised Model (MobileNetV2): Initial screening for pneumonia presence.")
 st.write("2. Unsupervised Sub-Clustering (VGG16 + PCA + KMeans): Detailed classification into specific pneumonia sub-types. Made by [Jojo](https://github.com/study-spec)")
+st.write('Contributors : [Jojo](https://github.com/study-spec), [Samuel Jose](https://github.com/Semi-techno), [Joshua](https://github.com/JoshuaRichardo)')
 st.markdown("---")
 
 uploaded_file = st.file_uploader("Upload a Chest X-Ray Image (JPEG / PNG)...", type=["jpg", "jpeg", "png"])
